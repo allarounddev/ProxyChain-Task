@@ -11,7 +11,7 @@ app.get('/jpg-image', (req, res) => {
   const imgUrl = 'https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg'
   const options = url.parse(imgUrl)
   console.log(options.href)
-  // res.sendFile(imgUrl)
+  // res.sendFile(imgUrl)dd
   res.redirect(imgUrl);
 
 });
